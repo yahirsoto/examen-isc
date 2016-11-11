@@ -23,7 +23,7 @@ $resultado2 = mysqli_query($con, $peticion2);
 
 
 
-
+hola
 
 while ($fila2 = mysqli_fetch_array($resultado2)) {
   echo "<img scr='photo/".$fila2['imagen']."' width=100px>";
